@@ -23,7 +23,7 @@
       "addons": [
         {
           "type": "CynosDB",
-          "name": "WIKIJS",
+          "name": "wikijs",
           "envMap": {
             "IP": "DB_HOST",
             "PORT": "DB_PORT",
