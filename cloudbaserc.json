@@ -13,7 +13,7 @@
           "uploadType": "package",
           "containerPort": 3000,
           "envVariables": {
-            "DB_TYPE": "mysql",
+            "DB_TYPE": "postgres",
             "DB_NAME": "wiki"
           }
         }
