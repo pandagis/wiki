@@ -5,7 +5,7 @@ USER root
 # apk 加速
 RUN sed -i 's/dl-cdn.alpinelinux.org/mirrors.tuna.tsinghua.edu.cn/g' /etc/apk/repositories
 
-RUN apk add mysql-client
+RUN apk add postresql-client
 
 COPY ./entrypoint.sh ./entrypoint.sh
 
